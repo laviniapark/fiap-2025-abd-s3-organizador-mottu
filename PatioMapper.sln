@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatioMapper.API", "PatioMapper.API\PatioMapper.API.csproj", "{BE90C302-743F-4ABB-A52B-61F110A1D3D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatioMapper.Domain", "PatioMapper.Domain\PatioMapper.Domain.csproj", "{3616C709-33FB-4323-8EF5-489DB4AF2ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatioMapper.Application", "PatioMapper.Application\PatioMapper.Application.csproj", "{D72A4281-7283-473B-986F-ED57EE83290B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatioMapper.Infrastructure", "PatioMapper.Infrastructure\PatioMapper.Infrastructure.csproj", "{1D17FAF6-EB02-46BB-91CD-C3EFAF213533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatioMapper.API.Test", "PatioMapper.API.Test\PatioMapper.API.Test.csproj", "{AF8DCF13-B0E9-4A84-858A-6E8EE12443EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FAB0782C-3B9F-4A4B-96AA-CF7E2B23DD9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EABD03E9-EB44-4EAA-878F-93F4B6363AF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE90C302-743F-4ABB-A52B-61F110A1D3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE90C302-743F-4ABB-A52B-61F110A1D3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE90C302-743F-4ABB-A52B-61F110A1D3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE90C302-743F-4ABB-A52B-61F110A1D3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3616C709-33FB-4323-8EF5-489DB4AF2ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3616C709-33FB-4323-8EF5-489DB4AF2ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3616C709-33FB-4323-8EF5-489DB4AF2ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3616C709-33FB-4323-8EF5-489DB4AF2ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72A4281-7283-473B-986F-ED57EE83290B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72A4281-7283-473B-986F-ED57EE83290B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72A4281-7283-473B-986F-ED57EE83290B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72A4281-7283-473B-986F-ED57EE83290B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D17FAF6-EB02-46BB-91CD-C3EFAF213533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D17FAF6-EB02-46BB-91CD-C3EFAF213533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D17FAF6-EB02-46BB-91CD-C3EFAF213533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D17FAF6-EB02-46BB-91CD-C3EFAF213533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8DCF13-B0E9-4A84-858A-6E8EE12443EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8DCF13-B0E9-4A84-858A-6E8EE12443EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8DCF13-B0E9-4A84-858A-6E8EE12443EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8DCF13-B0E9-4A84-858A-6E8EE12443EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF8DCF13-B0E9-4A84-858A-6E8EE12443EC} = {EABD03E9-EB44-4EAA-878F-93F4B6363AF5}
+		{BE90C302-743F-4ABB-A52B-61F110A1D3D2} = {FAB0782C-3B9F-4A4B-96AA-CF7E2B23DD9A}
+		{D72A4281-7283-473B-986F-ED57EE83290B} = {FAB0782C-3B9F-4A4B-96AA-CF7E2B23DD9A}
+		{3616C709-33FB-4323-8EF5-489DB4AF2ECA} = {FAB0782C-3B9F-4A4B-96AA-CF7E2B23DD9A}
+		{1D17FAF6-EB02-46BB-91CD-C3EFAF213533} = {FAB0782C-3B9F-4A4B-96AA-CF7E2B23DD9A}
+	EndGlobalSection
+EndGlobal
